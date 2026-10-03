@@ -50,7 +50,14 @@
         "OrchardCore.Localization",
         "OrchardCore.Workflows",
         "OrchardCore.Crest.LegacyFrame",
-        "OrchardCore.Crest.Icons"
+        "OrchardCore.Crest.Icons",
+        "Crest.Global",
+        "Crest.Regions",
+        "Crest.Money",
+        "Crest.Parties",
+        "Crest.Members",
+        "Crest.Workflows",
+        "Crest.Workflows.Contents"
       ]
     },
     {

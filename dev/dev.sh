@@ -14,6 +14,11 @@ export LANG="${LANG_OVERRIDE:-en_US.UTF-8}"
 
 export CREST_SERVER_URL="${CREST_SERVER_URL:-http://crest.localhost:5014}"
 export CREST_SERVER_PORT="${CREST_SERVER_PORT:-5014}"
+# The browser harness in the submodule signs in with these; pass them explicitly rather
+# than letting it fall back to a default that happens to match this host's autosetup
+# (appsettings.Development.json › AdminUsername/AdminPassword).
+export ADMIN_USERNAME="${ADMIN_USERNAME:-admin}"
+export ADMIN_PASSWORD="${ADMIN_PASSWORD:-CrestRules1!}"
 # Playwright isn't installed locally in this repo; reuse fruitful.orchard's install
 # unless the caller already points NODE_PATH somewhere else.
 export NODE_PATH="${NODE_PATH:-/workspaces/fruitful.orchard/node_modules}"

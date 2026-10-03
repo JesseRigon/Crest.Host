@@ -1,0 +1,118 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/modules/" />
+  <Folder Name="/modules/OrchardCore.Crest/">
+    <Project Path="modules/OrchardCore.Crest/Crest.ContentPartLists/Crest.ContentPartLists.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Global/Crest.Global.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Regions/Crest.Regions.csproj" />
+    <Project Path="modules/OrchardCore.Crest/OrchardCore.Crest.Iconify/OrchardCore.Crest.Iconify.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/blazor-wasm/">
+    <Project Path="modules/OrchardCore.Crest/Crest.ContentPartLists/blazor-wasm/Crest.ContentPartLists.BlazorWasm.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/Crest.ContentPartLists/" />
+  <Folder Name="/modules/OrchardCore.Crest/Crest.ContentPartLists/tests/">
+    <Project Path="modules/OrchardCore.Crest/Crest.ContentPartLists/tests/Crest.ContentPartLists.Tests/Crest.ContentPartLists.Tests.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Members/" />
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Members/Domain/">
+    <Project Path="modules/OrchardCore.Crest/Crest.Members/Domain/Crest.Members.Domain.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Members/Server/">
+    <Project Path="modules/OrchardCore.Crest/Crest.Members/Server/Crest.Members.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Members/tests/">
+    <Project Path="modules/OrchardCore.Crest/Crest.Members/tests/Crest.Members.Tests/Crest.Members.Tests.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Parties/" />
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Parties/Domain/">
+    <Project Path="modules/OrchardCore.Crest/Crest.Parties/Domain/Crest.Parties.Domain.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Parties/Server/">
+    <Project Path="modules/OrchardCore.Crest/Crest.Parties/Server/Crest.Parties.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Parties/tests/">
+    <Project Path="modules/OrchardCore.Crest/Crest.Parties/tests/Crest.Parties.Tests/Crest.Parties.Tests.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Regions/" />
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Regions/Domain/">
+    <Project Path="modules/OrchardCore.Crest/Crest.Regions/Domain/Crest.Regions.Domain.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Regions/tests/">
+    <Project Path="modules/OrchardCore.Crest/Crest.Regions/tests/Crest.Regions.Tests/Crest.Regions.Tests.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Workflows/" />
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Workflows/Domain/">
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/Domain/Crest.Workflows.Domain.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Workflows/engine/" />
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Workflows/engine/src/" />
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Workflows/engine/src/common/">
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/common/Crest.Workflows.Api.Common/Crest.Workflows.Api.Common.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/common/Crest.Workflows.Features/Crest.Workflows.Features.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/common/Crest.Workflows.Mediator/Crest.Workflows.Mediator.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/">
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.Api/Crest.Workflows.Api.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.Caching/Crest.Workflows.Caching.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.Common/Crest.Workflows.Common.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.Core/Crest.Workflows.Core.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.Engine/Crest.Workflows.Engine.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.Expressions.JavaScript/Crest.Workflows.Expressions.JavaScript.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.Expressions.Liquid/Crest.Workflows.Expressions.Liquid.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.Expressions/Crest.Workflows.Expressions.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.Http/Crest.Workflows.Http.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.KeyValues/Crest.Workflows.KeyValues.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.Management/Crest.Workflows.Management.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.Resilience.Core/Crest.Workflows.Resilience.Core.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.Resilience/Crest.Workflows.Resilience.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.Runtime.Distributed/Crest.Workflows.Runtime.Distributed.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.Runtime/Crest.Workflows.Runtime.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.SasTokens/Crest.Workflows.SasTokens.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.Scheduling/Crest.Workflows.Scheduling.csproj" />
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/engine/src/modules/Crest.Workflows.Tenants/Crest.Workflows.Tenants.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Workflows/Server/">
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/Server/Crest.Workflows.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/Crest.Workflows/tests/">
+    <Project Path="modules/OrchardCore.Crest/Crest.Workflows/tests/Crest.Workflows.Tests/Crest.Workflows.Tests.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/OrchardCore.Crest.Admin/" />
+  <Folder Name="/modules/OrchardCore.Crest/OrchardCore.Crest.Admin/tests/">
+    <Project Path="modules/OrchardCore.Crest/OrchardCore.Crest.Admin/tests/OrchardCore.Crest.Admin.Tests/OrchardCore.Crest.Admin.Tests.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/OrchardCore.Crest.Admin/wasm/" />
+  <Folder Name="/modules/OrchardCore.Crest/OrchardCore.Crest.Components/" />
+  <Folder Name="/modules/OrchardCore.Crest/OrchardCore.Crest.Components/tests/">
+    <Project Path="modules/OrchardCore.Crest/OrchardCore.Crest.Components/tests/OrchardCore.Crest.Components.Tests/OrchardCore.Crest.Components.Tests.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/OrchardCore.Crest.Iconify/" />
+  <Folder Name="/modules/OrchardCore.Crest/OrchardCore.Crest.Iconify/tests/">
+    <Project Path="modules/OrchardCore.Crest/OrchardCore.Crest.Iconify/tests/OrchardCore.Crest.Iconify.Tests/OrchardCore.Crest.Iconify.Tests.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/OrchardCore.Crest.Icons/" />
+  <Folder Name="/modules/OrchardCore.Crest/OrchardCore.Crest.Icons/tests/">
+    <Project Path="modules/OrchardCore.Crest/OrchardCore.Crest.Icons/tests/OrchardCore.Crest.Icons.Tests/OrchardCore.Crest.Icons.Tests.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/OrchardCore.Crest.Server/" />
+  <Folder Name="/modules/OrchardCore.Crest/OrchardCore.Crest.Server/tests/">
+    <Project Path="modules/OrchardCore.Crest/OrchardCore.Crest.Server/tests/OrchardCore.Crest.Server.Tests/OrchardCore.Crest.Server.Tests.csproj" />
+  </Folder>
+  <Folder Name="/modules/OrchardCore.Crest/OrchardCore.Crest.Site/" />
+  <Folder Name="/modules/OrchardCore.Crest/OrchardCore.Crest.Site/tests/">
+    <Project Path="modules/OrchardCore.Crest/OrchardCore.Crest.Site/tests/OrchardCore.Crest.Site.Tests/OrchardCore.Crest.Site.Tests.csproj" />
+  </Folder>
+  <Project Path="modules/OrchardCore.Crest/OrchardCore.Crest.Admin/OrchardCore.Crest.Admin.csproj" />
+  <Project Path="modules/OrchardCore.Crest/OrchardCore.Crest.Admin/wasm/OrchardCore.Crest.Admin.Client.csproj" />
+  <Project Path="modules/OrchardCore.Crest/OrchardCore.Crest.Components/OrchardCore.Crest.Components.csproj" />
+  <Project Path="modules/OrchardCore.Crest/OrchardCore.Crest.Icons/OrchardCore.Crest.Icons.csproj" />
+  <Project Path="modules/OrchardCore.Crest/OrchardCore.Crest.Server/OrchardCore.Crest.csproj" />
+  <Project Path="modules/OrchardCore.Crest/OrchardCore.Crest.Server/Themes/OrchardCore.Crest.LegacyFrame/OrchardCore.Crest.LegacyFrame.csproj" />
+  <Project Path="modules/OrchardCore.Crest/OrchardCore.Crest.Site/OrchardCore.Crest.Site.csproj" />
+  <Project Path="OrchardCore.Crest.Host.csproj" />
+</Solution>

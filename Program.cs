@@ -1,3 +1,4 @@
+using Crest.Global;
 using System.Text.Json;
 using Microsoft.Extensions.FileProviders;
 using Serilog;
@@ -32,7 +33,12 @@ else
 // for both until after setup), so this NRE's on every request before setup can even run.
 builder.Services
     .AddOrchardCms()
-    .AddSetupFeatures([.. setupFeatures]);
+    .AddSetupFeatures([.. setupFeatures])
+    // The tenant-less global store is a host-level service (it is one database shared by
+    // every tenant), so the host wires it rather than the feature: Crest.Global's
+    // ICrestGlobalStore, and anything that reads it - Crest.Regions' geo tree,
+    // Crest.Money's currency table - needs this call.
+    .AddCrestGlobalStore();
 
 var app = builder.Build();
 
