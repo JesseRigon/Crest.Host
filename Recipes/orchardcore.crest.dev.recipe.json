@@ -44,6 +44,7 @@
         "OrchardCore.Crest",
         "OrchardCore.Crest.Admin",
         "OrchardCore.Crest.Site",
+        "OrchardCore.Crest.Member",
         "Crest.ContentPartLists",
         "TheAdmin",
         "SafeMode",
