@@ -16,8 +16,8 @@ App_Data.mismatched-*/
 # each orchardcore.translations.* NuGet package's .po files into a "Localization/" folder
 # at this project's own directory on every build - regenerated content, not source.
 # Scoped to just that path (not a bare "Localization/" pattern) because the
-# OrchardCore.Crest submodule keeps genuinely hand-authored .po files in its own
-# Localization/ folders (e.g. modules/OrchardCore.Crest/OrchardCore.Crest.Server/Localization/)
+# Crest submodule keeps genuinely hand-authored .po files in its own
+# Localization/ folders (e.g. modules/Crest/Crest.Server/Localization/)
 # that a broader rule would silently hide from git.
 /Localization/
 wwwroot/.well-known/acme-challenge/

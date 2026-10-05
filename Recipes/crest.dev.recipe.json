@@ -1,9 +1,9 @@
 {
-  "name": "OrchardCore.CrestDev",
+  "name": "CrestDev",
   "displayName": "Orchard Crest UI Framework Dev",
   "description": "Minimal SQLite development setup for Orchard Crest UI Framework.",
   "author": "Orchard Crest UI Framework",
-  "website": "https://github.com/jesse-forked/OrchardCore.Crest",
+  "website": "https://github.com/jesse-forked/Crest",
   "version": "1.0.0",
   "issetuprecipe": true,
   "categories": [
@@ -41,17 +41,17 @@
         "OrchardCore.Themes",
         "OrchardCore.Users",
         "OrchardCore.Widgets",
-        "OrchardCore.Crest",
-        "OrchardCore.Crest.Admin",
-        "OrchardCore.Crest.Site",
-        "OrchardCore.Crest.Member",
+        "Crest",
+        "Crest.Admin",
+        "Crest.Site",
+        "Crest.Member",
         "Crest.ContentPartLists",
         "TheAdmin",
         "SafeMode",
         "OrchardCore.Localization",
         "OrchardCore.Workflows",
-        "OrchardCore.Crest.LegacyFrame",
-        "OrchardCore.Crest.Icons",
+        "Crest.LegacyFrame",
+        "Crest.Icons",
         "Crest.Global",
         "Crest.Regions",
         "Crest.Money",
@@ -63,13 +63,13 @@
     },
     {
       "name": "themes",
-      "admin": "OrchardCore.Crest.Admin",
-      "site": "OrchardCore.Crest.Site"
+      "admin": "Crest.Admin",
+      "site": "Crest.Site"
     },
     {
       "name": "settings",
       "SiteName": "Orchard Crest UI Framework Dev",
-      "CurrentAdminThemeName": "OrchardCore.Crest.Admin",
+      "CurrentAdminThemeName": "Crest.Admin",
       "LocalizationSettings": {
         "DefaultCulture": "en-US",
         "SupportedCultures": [

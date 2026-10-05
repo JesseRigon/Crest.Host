@@ -31,23 +31,23 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="modules/OrchardCore.Crest/OrchardCore.Crest.Server/OrchardCore.Crest.csproj" />
-    <ProjectReference Include="modules/OrchardCore.Crest/Crest.ContentPartLists/Crest.ContentPartLists.csproj" />
-    <ProjectReference Include="modules/OrchardCore.Crest/Crest.Parties/Server/Crest.Parties.csproj" />
-    <ProjectReference Include="modules/OrchardCore.Crest/Crest.Parties/Domain/Crest.Parties.Domain.csproj" />
-    <ProjectReference Include="modules/OrchardCore.Crest/Crest.Members/Server/Crest.Members.csproj" />
-    <ProjectReference Include="modules/OrchardCore.Crest/Crest.Members/Domain/Crest.Members.Domain.csproj" />
-    <ProjectReference Include="modules/OrchardCore.Crest/Crest.Workflows/Server/Crest.Workflows.csproj" />
-    <ProjectReference Include="modules/OrchardCore.Crest/Crest.Workflows/Contents/Crest.Workflows.Contents.csproj" />
-    <ProjectReference Include="modules/OrchardCore.Crest/Crest.Money/Crest.Money.csproj" />
-    <ProjectReference Include="modules/OrchardCore.Crest/Crest.Money/Domain/Crest.Money.Domain.csproj" />
-    <ProjectReference Include="modules/OrchardCore.Crest/Crest.Global/Crest.Global.csproj" />
-    <ProjectReference Include="modules/OrchardCore.Crest/Crest.Regions/Crest.Regions.csproj" />
-    <ProjectReference Include="modules/OrchardCore.Crest/Crest.Regions/Domain/Crest.Regions.Domain.csproj" />
-    <ProjectReference Include="modules/OrchardCore.Crest/OrchardCore.Crest.Server/Themes/OrchardCore.Crest.LegacyFrame/OrchardCore.Crest.LegacyFrame.csproj" />
-    <ProjectReference Include="modules/OrchardCore.Crest/OrchardCore.Crest.Components/OrchardCore.Crest.Components.csproj" />
-    <ProjectReference Include="modules/OrchardCore.Crest/OrchardCore.Crest.Icons/OrchardCore.Crest.Icons.csproj" />
-    <ProjectReference Include="modules/OrchardCore.Crest/OrchardCore.Crest.Admin/OrchardCore.Crest.Admin.csproj" />
-    <ProjectReference Include="modules/OrchardCore.Crest/OrchardCore.Crest.Site/OrchardCore.Crest.Site.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.Server/Crest.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.ContentPartLists/Crest.ContentPartLists.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.Parties/Server/Crest.Parties.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.Parties/Domain/Crest.Parties.Domain.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.Members/Server/Crest.Members.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.Members/Domain/Crest.Members.Domain.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.Workflows/Server/Crest.Workflows.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.Workflows/Contents/Crest.Workflows.Contents.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.Money/Crest.Money.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.Money/Domain/Crest.Money.Domain.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.Global/Crest.Global.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.Regions/Crest.Regions.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.Regions/Domain/Crest.Regions.Domain.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.Server/Themes/Crest.LegacyFrame/Crest.LegacyFrame.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.Components/Crest.Components.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.Icons/Crest.Icons.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.Admin/Crest.Admin.csproj" />
+    <ProjectReference Include="modules/Crest/Crest.Site/Crest.Site.csproj" />
   </ItemGroup>
 </Project>

@@ -22,9 +22,9 @@ else
 }
 
 // Crest's own features are enabled by the setup recipe's own "feature" step (see
-// Recipes/orchardcore.crest.dev.recipe.json) once the tenant is provisioned, not here.
+// Recipes/crest.dev.recipe.json) once the tenant is provisioned, not here.
 // AddSetupFeatures loads its features into the Uninitialized/setup shell descriptor
-// itself - OrchardCore.Crest transitively depends on OrchardCore.Contents (via
+// itself - Crest transitively depends on OrchardCore.Contents (via
 // OrchardCore.Menu), which registers a DB-backed IPermissionProvider
 // (ContentTypePermissions). OrchardCoreBuilderExtensions.ValidatePermissionsAsync
 // unconditionally calls GetPermissionsAsync() on every registered IPermissionProvider
@@ -47,29 +47,29 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Error");
 }
 
-// blazor.web.js (needed by any @rendermode interactive island, e.g. OrchardCore.Crest's
+// blazor.web.js (needed by any @rendermode interactive island, e.g. Crest's
 // Components/Pages/BlazorCounter.razor) ships via the microsoft.aspnetcore.app.internal.assets
 // SDK package's own static-web-assets target, but that target only fires when
 // OutputType=Exe AND UsingMicrosoftNETSdkWeb=true - neither is true for
-// OrchardCore.Crest.csproj, a Sdk="Microsoft.NET.Sdk.Razor" module library (Orchard's
+// Crest.csproj, a Sdk="Microsoft.NET.Sdk.Razor" module library (Orchard's
 // module convention), so the file never reaches this app's static web assets manifest
 // and 404s. Forcing OutputType=Exe on a module library risked breaking
 // OrchardCore.Module.Targets' embedded-resource assumptions, so instead: serve it
 // directly from the same physical file the SDK target would have picked up, scoped to
 // exactly this one path. This also serves dotnet.js/dotnet.native.*.wasm and the rest of
 // the framework's own runtime files - MapStaticAssets correctly serves everything that
-// OrchardCore.Crest.Client's own manifest DOES declare (dotnet.js is not one of them; it's
+// Crest.Client's own manifest DOES declare (dotnet.js is not one of them; it's
 // SDK-internal, same gate as blazor.web.js), as long as ASPNETCORE_ENVIRONMENT is actually
 // Development (see docs/BlazorWeb.md) - don't reintroduce a second, redundant
 // PhysicalFileProvider over the client project's own build output for this path; that was
 // tried and reverted (it served a different, stale dotnet.js than the manifest-resolved
 // one and broke the WASM runtime's own dynamic resource-collection.*.js import).
 //
-// TODO(.NET 11 / OrchardCore.Crest on .NET 11): .NET 11 adds a <BasePath /> component that
+// TODO(.NET 11 / Crest on .NET 11): .NET 11 adds a <BasePath /> component that
 // generates <base href> from the current request's PathBase, meant to make framework-asset
 // resolution under a non-root base href (and possibly this SDK-gating gap itself) work
 // without hand-rolled workarounds like this one (see dotnet/aspnetcore#66388). Once
-// OrchardCore.Crest itself targets .NET 11, re-evaluate whether this block can be retired.
+// Crest itself targets .NET 11, re-evaluate whether this block can be retired.
 var frameworkAssetsRoot = Directory
     .EnumerateDirectories(Path.Combine(
         Environment.GetEnvironmentVariable("NUGET_PACKAGES")

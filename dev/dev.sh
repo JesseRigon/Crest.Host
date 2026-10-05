@@ -9,7 +9,7 @@ SERVER_PROJECT="${ROOT_DIR}/OrchardCore.Crest.Host.csproj"
 # The devcontainer's default LANG=C.UTF-8 has no named .NET culture, so
 # CultureInfo.InstalledUICulture resolves to "" (invariant) - requests then throw
 # ArgumentException("cultureName") in the localization pipeline. Pin LANG so local
-# dev always has a real installed culture (same fix as fruitful.orchard/dev/dev.sh).
+# dev always has a real installed culture (same fix as fruitful.host/dev/dev.sh).
 export LANG="${LANG_OVERRIDE:-en_US.UTF-8}"
 
 export CREST_SERVER_URL="${CREST_SERVER_URL:-http://crest.localhost:5014}"
@@ -19,9 +19,9 @@ export CREST_SERVER_PORT="${CREST_SERVER_PORT:-5014}"
 # (appsettings.Development.json › AdminUsername/AdminPassword).
 export ADMIN_USERNAME="${ADMIN_USERNAME:-admin}"
 export ADMIN_PASSWORD="${ADMIN_PASSWORD:-CrestRules1!}"
-# Playwright isn't installed locally in this repo; reuse fruitful.orchard's install
+# Playwright isn't installed locally in this repo; reuse fruitful.host's install
 # unless the caller already points NODE_PATH somewhere else.
-export NODE_PATH="${NODE_PATH:-/workspaces/fruitful.orchard/node_modules}"
+export NODE_PATH="${NODE_PATH:-/workspaces/fruitful.host/node_modules}"
 
 usage() {
   cat <<'EOF'
@@ -42,7 +42,7 @@ EOF
 }
 
 # --- OrchardCore fork feed -----------------------------------------------------
-# Crest pins every OrchardCore package to 3.0.2-local, a version that only exists
+# Crest pins every OrchardCore package to 4.0.0-local, a version that only exists
 # in a feed packed from the custom fork (jesse-forked/OrchardCore, branch Crest -
 # the AdminNode UniqueId changes pending upstream in OrchardCMS/OrchardCore#19771).
 # Two layouts are supported, and NuGet.config maps OrchardCore* to BOTH sources:
@@ -50,7 +50,7 @@ EOF
 #               from a sibling /workspaces/OrchardCore checkout).
 #   standalone: no sibling feed - the fork is cloned as the modules/OrchardCore
 #               submodule and packed into the in-repo local-nuget-feed/ folder.
-OC_FEED_VERSION="3.0.2-local"
+OC_FEED_VERSION="4.0.0-local"
 SIBLING_FEED="/workspaces/local-nuget-feed"
 REPO_FEED="${ROOT_DIR}/local-nuget-feed"
 OC_SUBMODULE="${ROOT_DIR}/modules/OrchardCore"
@@ -181,19 +181,19 @@ is_legacy_script() {
 }
 
 # This host supplies credentials/URLs (its own dev/.env, once it has one) and decides
-# when to run tests, but does not know OrchardCore.Crest's internal subproject layout —
+# when to run tests, but does not know Crest's internal subproject layout —
 # that knowledge stays owned by the submodule itself, in its own tests/run-tests.sh,
 # which takes BASE_URL as an input and holds no credentials of its own. Any other module
-# this host later declares (currently only OrchardCore.Crest exists under modules/) gets
-# walked directly here, same shape as fruitful.orchard/dev/dev.sh's module loop.
+# this host later declares (currently only Crest exists under modules/) gets
+# walked directly here, same shape as fruitful.host/dev/dev.sh's module loop.
 run_module_tests() {
   local module_dir="$1"
   local module_name
   module_name="$(basename "${module_dir}")"
   local tests_dir="${module_dir}/tests"
 
-  if [ "${module_name}" = "OrchardCore.Crest" ]; then
-    echo "=== ${module_name} (delegated to modules/OrchardCore.Crest/tests/run-tests.sh) ==="
+  if [ "${module_name}" = "Crest" ]; then
+    echo "=== ${module_name} (delegated to modules/Crest/tests/run-tests.sh) ==="
     BASE_URL="${CREST_SERVER_URL}" bash "${tests_dir}/run-tests.sh"
     return $?
   fi
