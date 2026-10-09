@@ -1,5 +1,5 @@
 {
-  "name": "orchardcore-crest-host",
+  "name": "crest-host",
   "private": true,
   "devDependencies": {
     "@playwright/test": "1.61.1",

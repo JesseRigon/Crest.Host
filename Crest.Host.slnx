@@ -82,11 +82,11 @@
   <Folder Name="/modules/Crest/Crest.Workflows/tests/">
     <Project Path="modules/Crest/Crest.Workflows/tests/Crest.Workflows.Tests/Crest.Workflows.Tests.csproj" />
   </Folder>
-  <Folder Name="/modules/Crest/Crest.Admin/" />
-  <Folder Name="/modules/Crest/Crest.Admin/tests/">
-    <Project Path="modules/Crest/Crest.Admin/tests/Crest.Admin.Tests/Crest.Admin.Tests.csproj" />
+  <Folder Name="/modules/Crest/Crest.AdminTheme/" />
+  <Folder Name="/modules/Crest/Crest.AdminTheme/tests/">
+    <Project Path="modules/Crest/Crest.AdminTheme/tests/Crest.AdminTheme.Tests/Crest.AdminTheme.Tests.csproj" />
   </Folder>
-  <Folder Name="/modules/Crest/Crest.Admin/wasm/" />
+  <Folder Name="/modules/Crest/Crest.AdminTheme/wasm/" />
   <Folder Name="/modules/Crest/Crest.Components/" />
   <Folder Name="/modules/Crest/Crest.Components/tests/">
     <Project Path="modules/Crest/Crest.Components/tests/Crest.Components.Tests/Crest.Components.Tests.csproj" />
@@ -103,16 +103,17 @@
   <Folder Name="/modules/Crest/Crest.Server/tests/">
     <Project Path="modules/Crest/Crest.Server/tests/Crest.Server.Tests/Crest.Server.Tests.csproj" />
   </Folder>
-  <Folder Name="/modules/Crest/Crest.Site/" />
-  <Folder Name="/modules/Crest/Crest.Site/tests/">
-    <Project Path="modules/Crest/Crest.Site/tests/Crest.Site.Tests/Crest.Site.Tests.csproj" />
+  <Folder Name="/modules/Crest/Crest.SiteTheme/" />
+  <Folder Name="/modules/Crest/Crest.SiteTheme/tests/">
+    <Project Path="modules/Crest/Crest.SiteTheme/tests/Crest.SiteTheme.Tests/Crest.SiteTheme.Tests.csproj" />
   </Folder>
-  <Project Path="modules/Crest/Crest.Admin/Crest.Admin.csproj" />
-  <Project Path="modules/Crest/Crest.Admin/wasm/Crest.Admin.Client.csproj" />
+  <Project Path="modules/Crest/Crest.AdminTheme/Crest.AdminTheme.csproj" />
+  <Project Path="modules/Crest/Crest.AdminTheme/wasm/Crest.AdminTheme.Client.csproj" />
   <Project Path="modules/Crest/Crest.Components/Crest.Components.csproj" />
   <Project Path="modules/Crest/Crest.Icons/Crest.Icons.csproj" />
-  <Project Path="modules/Crest/Crest.Server/Crest.csproj" />
+  <Project Path="modules/Crest/Crest.Server/Crest.Server.csproj" />
   <Project Path="modules/Crest/Crest.Server/Themes/Crest.LegacyFrame/Crest.LegacyFrame.csproj" />
-  <Project Path="modules/Crest/Crest.Site/Crest.Site.csproj" />
-  <Project Path="OrchardCore.Crest.Host.csproj" />
+  <Project Path="modules/Crest/Crest.SiteTheme/Crest.SiteTheme.csproj" />
+  <Project Path="Crest.Host.csproj" />
+  <Project Path="client/Crest.Host.Client.csproj" />
 </Solution>

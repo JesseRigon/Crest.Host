@@ -1,7 +1,3 @@
 [submodule "Crest"]
 	path = modules/Crest
 	url = https://github.com/JesseRigon/Crest.git
-[submodule "OrchardCore"]
-	path = modules/OrchardCore
-	url = https://github.com/jesse-forked/OrchardCore.git
-	branch = Crest

@@ -9,10 +9,11 @@ node_modules/
 *.log
 *.pid
 dev/logs/
+dev/mail/
 App_Data/
 App_Data.backup-*/
 App_Data.mismatched-*/
-# OrchardCore.Application.Cms.Targets' CopyPackageTranslationFiles build target copies
+# Crest.Application.Cms.Targets' CopyPackageTranslationFiles build target copies
 # each orchardcore.translations.* NuGet package's .po files into a "Localization/" folder
 # at this project's own directory on every build - regenerated content, not source.
 # Scoped to just that path (not a bare "Localization/" pattern) because the
@@ -26,5 +27,6 @@ wwwroot/.well-known/acme-challenge/
 recipes/crest-admin-menu-layout.json
 tests/playwright/output/new/
 
-# In-repo OrchardCore feed packed by dev/dev.sh (production-mode bootstrap)
-local-nuget-feed/
+# Admin suite run output; base/ holds committed baselines
+dev/playwright-output/*
+!dev/playwright-output/base/

@@ -1,0 +1,1060 @@
+{
+  "items": [
+    {
+      "itemKey": "new",
+      "parentKey": null,
+      "order": 2,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Customer",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Option List",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Organization",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Page",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Partner",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Person",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Vendor",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "a7d8c0757ad4434ba786dfef2530dfde",
+      "parentKey": null,
+      "order": 2,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": "@iconify:mdi:file-document-multiple"
+    },
+    {
+      "itemKey": "0916a15bbd6a4977ada5854448c4a7a5",
+      "parentKey": "982933b35fc44087a86b4b0a47d054ad",
+      "order": 3,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "af3b243aec524aa8894a0602b02e7dea",
+      "parentKey": "e038b9bf584a4e59836968e24504fda5",
+      "order": 1,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "972ed452b6f747c8902f263d4c1eb899",
+      "parentKey": "custom-8141948acc6c4d2594a0d5838916bad2",
+      "order": 0,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": "@iconify:mdi:palette"
+    },
+    {
+      "itemKey": "a3b8941a9823481c9f576876264a23d3",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "bb40ec74bf88457ab118ecf1a7fc91b0",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "e0679ab5b1834daea3100ed8cd561ed1",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "982933b35fc44087a86b4b0a47d054ad",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "be267c8f310041da88055ab0d5c07d3f",
+      "parentKey": "982933b35fc44087a86b4b0a47d054ad",
+      "order": 0,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "045c0da8e1364b47be1050868f98d090",
+      "parentKey": "982933b35fc44087a86b4b0a47d054ad",
+      "order": 1,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "cfd9d4910bfb4d43ae86badca2fd95a7",
+      "parentKey": "982933b35fc44087a86b4b0a47d054ad",
+      "order": 2,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "7d3a2af532764ae986a230645a657604",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "ce20f8192f75481db9485a9854f28578",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "3ebd13060bcb4d3db9ab399ff016fdda",
+      "parentKey": "e380b6d8e8814b2cb0daeedca7a62e33",
+      "order": 7,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "a6d9822cfbd14dfe99746a6500c6f815",
+      "parentKey": "3ebd13060bcb4d3db9ab399ff016fdda",
+      "order": 0,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "d595fbc4574a4f1aa6557a96f112c4b2",
+      "parentKey": "3ebd13060bcb4d3db9ab399ff016fdda",
+      "order": 2,
+      "hidden": true,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "91126b0c347449428e210a1ef05698ab",
+      "parentKey": "3ebd13060bcb4d3db9ab399ff016fdda",
+      "order": 1,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "2caac21634134ebe857092e9935a2ba9",
+      "parentKey": "custom-8141948acc6c4d2594a0d5838916bad2",
+      "order": 1,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "2419576fe92242d89facd623f8f75957",
+      "parentKey": "2caac21634134ebe857092e9935a2ba9",
+      "order": 0,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "6d27ad819b5547838b5d144ac1d88bcd",
+      "parentKey": "2caac21634134ebe857092e9935a2ba9",
+      "order": 1,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "8d3f9148488f4395941bb673b700e6d5",
+      "parentKey": null,
+      "order": 6,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "11f453e2012d46c2a40e41fa2d1a2211",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "d2134461b7e04e9cb0adffa05cefbb50",
+      "parentKey": null,
+      "order": 7,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "d90418615f3f4cc3ad0480f1e19a5b67",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "3d367d1cb6d84733b7e5d2f07b98d373",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "3f2ee52d1a7e4c319a4607a4b83337f6",
+      "parentKey": null,
+      "order": 8,
+      "hidden": true,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "a4dea3be1f034e179a978a93a305f2a2",
+      "parentKey": "2caac21634134ebe857092e9935a2ba9",
+      "order": 2,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "e038b9bf584a4e59836968e24504fda5",
+      "parentKey": "custom-8141948acc6c4d2594a0d5838916bad2",
+      "order": 3,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "dc3657ca94d04d0ca28dcb0bb613d35f",
+      "parentKey": "e038b9bf584a4e59836968e24504fda5",
+      "order": 0,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "71bb6281de2a4d60979b36112f21d170",
+      "parentKey": "e038b9bf584a4e59836968e24504fda5",
+      "order": 2,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "e643e1fb50d748d799453fbda5ad0f5b",
+      "parentKey": "e038b9bf584a4e59836968e24504fda5",
+      "order": 3,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "e380b6d8e8814b2cb0daeedca7a62e33",
+      "parentKey": "custom-8141948acc6c4d2594a0d5838916bad2",
+      "order": 2,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "632af95621fa4fe5b6fa4ed08693fba9",
+      "parentKey": "e380b6d8e8814b2cb0daeedca7a62e33",
+      "order": 0,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "3a51777a21544e9dbd186d512ad19782",
+      "parentKey": "e380b6d8e8814b2cb0daeedca7a62e33",
+      "order": 1,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "27370f893c9a4f16b945a24ead7fb9b9",
+      "parentKey": "e380b6d8e8814b2cb0daeedca7a62e33",
+      "order": 2,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "af5446d03ab749c09f9a38b54a8c0fdf",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "2001334ea64e405b8469841ccf67bf07",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "475d6af5645648fe9385037b4f940300",
+      "parentKey": "e380b6d8e8814b2cb0daeedca7a62e33",
+      "order": 3,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "d0f47f440bc94f65a8ae339e69190b00",
+      "parentKey": "e380b6d8e8814b2cb0daeedca7a62e33",
+      "order": 4,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "26f92c2dea56462bac731535fa035e8a",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "6042f68830ae42299dcd1335df664810",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "b3edabbb94d4425586e88c96e72859e0",
+      "parentKey": "e380b6d8e8814b2cb0daeedca7a62e33",
+      "order": 5,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "d78e20c0d9ef460ea15abaa64a97875d",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "41e2c51b2ceb4a37850915ad5d26115e",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "866b803e6df14fd28cf0b7b0ddeb0a69",
+      "parentKey": "e380b6d8e8814b2cb0daeedca7a62e33",
+      "order": 6,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "custom-8141948acc6c4d2594a0d5838916bad2",
+      "parentKey": null,
+      "order": 5,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "fa9b2179fa2548fcad7bd01e2a1b5ea7",
+      "parentKey": "",
+      "order": 0,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": "@iconify:mdi:file-document-multiple"
+    },
+    {
+      "itemKey": "d6e7cd1976f341fa87224be64170640c",
+      "parentKey": "fa9b2179fa2548fcad7bd01e2a1b5ea7",
+      "order": 1,
+      "hidden": false,
+      "displayTextByCulture": {
+        "en-US": "All Content Items"
+      },
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "19d2be8b85ff42c081138dc54011b43c",
+      "parentKey": "cb4bd82bc2614d218c42585f2c116e84",
+      "order": 1,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "99ac9653e1ea4d919ac9b36347c24035",
+      "parentKey": "custom-8141948acc6c4d2594a0d5838916bad2",
+      "order": 1,
+      "hidden": false,
+      "displayTextByCulture": {
+        "en-US": "Structure"
+      },
+      "displayText": null,
+      "iconClass": "@iconify:mdi:palette"
+    },
+    {
+      "itemKey": "14218bf3605c422eb5437bb1d193cce4",
+      "parentKey": "99ac9653e1ea4d919ac9b36347c24035",
+      "order": 1,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "ccef1e607fcc4b618d9d32f1e67f5db4",
+      "parentKey": "99ac9653e1ea4d919ac9b36347c24035",
+      "order": 2,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "e449c460237c4378bae9bb252ddf9cd6",
+      "parentKey": "99ac9653e1ea4d919ac9b36347c24035",
+      "order": 3,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "842f1c03db90424d9cfbb69f613a1122",
+      "parentKey": "99ac9653e1ea4d919ac9b36347c24035",
+      "order": 3,
+      "hidden": false,
+      "displayTextByCulture": {
+        "en-US": "Content Definitions"
+      },
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "62931a2ecff54efa915e0d44c022117a",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "5c7eb656b85b43fb97a31cb4216381ea",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "b93f61dfa0514ad9bd04b304bae3b149",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "7075b5510c6a49dc86977d326996e4fb",
+      "parentKey": "99ac9653e1ea4d919ac9b36347c24035",
+      "order": 5,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "9cc1efc8247c4393b8dc81fbad7eb954",
+      "parentKey": "99ac9653e1ea4d919ac9b36347c24035",
+      "order": 6,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "475936a34952485697e23060fc7b3ac0",
+      "parentKey": "1937ffff7f324ee584a7c9e8d3e9b8e4",
+      "order": 7,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "16b3a0b0375348cd94a6caea58ab0874",
+      "parentKey": "475936a34952485697e23060fc7b3ac0",
+      "order": 0,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "f89ca997231b4a4784e7cf79a4577048",
+      "parentKey": "475936a34952485697e23060fc7b3ac0",
+      "order": 2,
+      "hidden": true,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "c26476a9dc5f461696bd1f9f002b5877",
+      "parentKey": "475936a34952485697e23060fc7b3ac0",
+      "order": 1,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "9c0ee8ac00a34c549a2961c63256a075",
+      "parentKey": "custom-8141948acc6c4d2594a0d5838916bad2",
+      "order": 0,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "4163e1ef4ff74f5587e6486bd9f0101e",
+      "parentKey": "9c0ee8ac00a34c549a2961c63256a075",
+      "order": 1,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "e6a33e133e2d42408409bc1d324bbc50",
+      "parentKey": "9c0ee8ac00a34c549a2961c63256a075",
+      "order": 2,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "4d76fa16cd8f443e94074b5d26b893f3",
+      "parentKey": null,
+      "order": 3,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "2d8edf9c45bb4ae6a85f2fe74a786d94",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "2637b9b11fb34197ac0206e3eb3202b9",
+      "parentKey": null,
+      "order": 4,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": "@iconify:mdi:image-multiple"
+    },
+    {
+      "itemKey": "8ed8912885f74ce180478f89a64849cf",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "49bd0d630f7f4ab3829beea2e578c3c9",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "da2f0c2c356d486a972a80761e904c3e",
+      "parentKey": "9c0ee8ac00a34c549a2961c63256a075",
+      "order": 3,
+      "hidden": true,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "7299002737184f5e899743dd1a2b9089",
+      "parentKey": "9c0ee8ac00a34c549a2961c63256a075",
+      "order": 0,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "cb4bd82bc2614d218c42585f2c116e84",
+      "parentKey": "custom-8141948acc6c4d2594a0d5838916bad2",
+      "order": 2,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "4f0a960a0b7b470180b91755af4d7655",
+      "parentKey": "cb4bd82bc2614d218c42585f2c116e84",
+      "order": 0,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "583436128ab2465fa54dd49d4b7fbb2f",
+      "parentKey": "cb4bd82bc2614d218c42585f2c116e84",
+      "order": 2,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "bbbab12a27a94887b03c06b5f043b477",
+      "parentKey": "cb4bd82bc2614d218c42585f2c116e84",
+      "order": 3,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "1937ffff7f324ee584a7c9e8d3e9b8e4",
+      "parentKey": "custom-8141948acc6c4d2594a0d5838916bad2",
+      "order": 3,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "09ead88b581a404ea840f486f46bb7aa",
+      "parentKey": "1937ffff7f324ee584a7c9e8d3e9b8e4",
+      "order": 0,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "35ef1e79dc5644e48b816395332f815c",
+      "parentKey": "1937ffff7f324ee584a7c9e8d3e9b8e4",
+      "order": 1,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "182a2fa9851f45febf51a9b169a05604",
+      "parentKey": "1937ffff7f324ee584a7c9e8d3e9b8e4",
+      "order": 2,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "5a8c9276066446fe9ca999f40a309d4f",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "085447bfbcd14a0a81e6976f47127c7d",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "1cbfe8740f214e59828e0587f126235f",
+      "parentKey": "1937ffff7f324ee584a7c9e8d3e9b8e4",
+      "order": 3,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "a20ac2af4efd4ee1a9710117201a9b0f",
+      "parentKey": "1937ffff7f324ee584a7c9e8d3e9b8e4",
+      "order": 4,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "757460e13810488bba1c1d3e758360a8",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "ac28776e135343a59da941a6f5e99665",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "ad80b75161304623a77193cf900e81b3",
+      "parentKey": "1937ffff7f324ee584a7c9e8d3e9b8e4",
+      "order": 5,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "f4b52b08e3c34dcdb9d548acad4eb7fb",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "90f676361af84d8db298fbbbf64e53af",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "c28b768663c545b9bfa5040b9168b243",
+      "parentKey": "1937ffff7f324ee584a7c9e8d3e9b8e4",
+      "order": 6,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "4b8463827709413ea76bd423108d3b41",
+      "parentKey": "fa9b2179fa2548fcad7bd01e2a1b5ea7",
+      "order": 2,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Content part list",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Grant override",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Membership group",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Membership tier",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Seat",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Subscription",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Item",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Price level",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Default group",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "0dc21b1893774f7ea30f02747c6c2195",
+      "parentKey": null,
+      "order": 6,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": "@iconify:mdi:card-account-details-outline"
+    },
+    {
+      "itemKey": "854777d88c4e4049824e47a8eed59028",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "cafe4e95a7c347fca6d11f85d69ecd55",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "269db71007f14b52ac7d334b0e5803b6",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Regional profile",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Location",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Tax registration",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "Tax rule",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "27a00bf34369408d9c0d0591cc8e43cb",
+      "parentKey": null,
+      "order": 7,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": "fa fa-percent"
+    },
+    {
+      "itemKey": "e7045243c4814dcaaa6412e8b5cb24b8",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "b38e5d9c08bd40d29c4c3c93d8e0af5e",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "c6b894a446164627b3873c8b767615df",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    },
+    {
+      "itemKey": "0baadd91920b44f4856e182864e9c90e",
+      "parentKey": null,
+      "order": null,
+      "hidden": false,
+      "displayText": null,
+      "iconClass": null
+    }
+  ],
+  "customItems": [
+    {
+      "key": "custom-8141948acc6c4d2594a0d5838916bad2",
+      "text": "Platform",
+      "url": null,
+      "iconClass": "@iconify:at-icons:galaxy"
+    }
+  ],
+  "separators": [],
+  "syncEntries": {
+    "Access Control": "9c0ee8ac00a34c549a2961c63256a075",
+    "Access Control\u001FRoles": "4163e1ef4ff74f5587e6486bd9f0101e",
+    "Access Control\u001FUsers": "e6a33e133e2d42408409bc1d324bbc50",
+    "Content": "fa9b2179fa2548fcad7bd01e2a1b5ea7",
+    "Content\u001FAddress": "be1a4c60076242a18fe87bc5145426a6",
+    "Content\u001FBlazor Component": "4b8463827709413ea76bd423108d3b41",
+    "Content\u001FContent Items": "d6e7cd1976f341fa87224be64170640c",
+    "Content\u001FItems": "e18cb47669494965bc8d617037c01e9c",
+    "Content\u001FMembers": "0d0b1378989a43ecbd9ce42fefc9bc36",
+    "Content\u001FMenus": "19d2be8b85ff42c081138dc54011b43c",
+    "Content\u001FOrganization": "0b79d4de322a4f8697e5294141d5b05f",
+    "Content\u001FParties": "a4f7795d7c0b46bab6da9962bcd47253",
+    "Design": "99ac9653e1ea4d919ac9b36347c24035",
+    "Design\u001FContent Definition": "842f1c03db90424d9cfbb69f613a1122",
+    "Design\u001FContent Definition\u001FContent Part Lists": "62931a2ecff54efa915e0d44c022117a",
+    "Design\u001FContent Definition\u001FContent Parts": "b93f61dfa0514ad9bd04b304bae3b149",
+    "Design\u001FContent Definition\u001FContent Types": "5c7eb656b85b43fb97a31cb4216381ea",
+    "Design\u001FDesign System": "14218bf3605c422eb5437bb1d193cce4",
+    "Design\u001FIcons": "ccef1e607fcc4b618d9d32f1e67f5db4",
+    "Design\u001FTemplates": "9cc1efc8247c4393b8dc81fbad7eb954",
+    "Design\u001FThemes": "7075b5510c6a49dc86977d326996e4fb",
+    "Design\u001FWorkflows": "e449c460237c4378bae9bb252ddf9cd6",
+    "Media": "2637b9b11fb34197ac0206e3eb3202b9",
+    "Media\u001FLibrary": "8ed8912885f74ce180478f89a64849cf",
+    "Media\u001FProfiles": "49bd0d630f7f4ab3829beea2e578c3c9",
+    "Memberships": "0dc21b1893774f7ea30f02747c6c2195",
+    "Memberships\u001FDefault Groups": "269db71007f14b52ac7d334b0e5803b6",
+    "Memberships\u001FPerks": "cafe4e95a7c347fca6d11f85d69ecd55",
+    "Memberships\u001FTiers": "854777d88c4e4049824e47a8eed59028",
+    "Multi-Tenancy": "da2f0c2c356d486a972a80761e904c3e",
+    "Multi-Tenancy\u001FTenants": "7299002737184f5e899743dd1a2b9089",
+    "Parties": "4d76fa16cd8f443e94074b5d26b893f3",
+    "Parties\u001FCustomers": "2d8edf9c45bb4ae6a85f2fe74a786d94",
+    "Search": "475936a34952485697e23060fc7b3ac0",
+    "Search\u001FIndexes": "16b3a0b0375348cd94a6caea58ab0874",
+    "Search\u001FQueries": "f89ca997231b4a4784e7cf79a4577048",
+    "Search\u001FQueries\u001FAll Queries": "c26476a9dc5f461696bd1f9f002b5877",
+    "Settings": "1937ffff7f324ee584a7c9e8d3e9b8e4",
+    "Settings\u001FAdmin": "c28b768663c545b9bfa5040b9168b243",
+    "Settings\u001FDebugging": "35ef1e79dc5644e48b816395332f815c",
+    "Settings\u001FGeneral": "09ead88b581a404ea840f486f46bb7aa",
+    "Settings\u001FLocalization": "ad80b75161304623a77193cf900e81b3",
+    "Settings\u001FLocalization\u001FCultures": "90f676361af84d8db298fbbbf64e53af",
+    "Settings\u001FLocalization\u001FDynamic Translations": "f4b52b08e3c34dcdb9d548acad4eb7fb",
+    "Settings\u001FMedia": "a20ac2af4efd4ee1a9710117201a9b0f",
+    "Settings\u001FMedia\u001FAPI": "ac28776e135343a59da941a6f5e99665",
+    "Settings\u001FMedia\u001FOptions": "757460e13810488bba1c1d3e758360a8",
+    "Settings\u001FSecurity": "182a2fa9851f45febf51a9b169a05604",
+    "Settings\u001FSecurity\u001FSecurity Headers": "5a8c9276066446fe9ca999f40a309d4f",
+    "Settings\u001FSecurity\u001FUser Login": "085447bfbcd14a0a81e6976f47127c7d",
+    "Settings\u001FWorkflow Trimming": "1cbfe8740f214e59828e0587f126235f",
+    "Taxes": "27a00bf34369408d9c0d0591cc8e43cb",
+    "Taxes\u001FAuthorities": "e7045243c4814dcaaa6412e8b5cb24b8",
+    "Taxes\u001FRegistrations": "b38e5d9c08bd40d29c4c3c93d8e0af5e",
+    "Taxes\u001FSettings": "c6b894a446164627b3873c8b767615df",
+    "Tools": "cb4bd82bc2614d218c42585f2c116e84",
+    "Tools\u001FAdmin Menus": "4f0a960a0b7b470180b91755af4d7655",
+    "Tools\u001FBackground Tasks": "0baadd91920b44f4856e182864e9c90e",
+    "Tools\u001FFeatures": "bbbab12a27a94887b03c06b5f043b477",
+    "Tools\u001FRecipes": "583436128ab2465fa54dd49d4b7fbb2f"
+  }
+}

@@ -1,9 +1,9 @@
 {
   "profiles": {
-    "OrchardCore.Crest.Host": {
+    "Crest.Host": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:5014",
+      "applicationUrl": "http://crest.localhost:5014",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

@@ -1,0 +1,72 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <UserSecretsId>platform-crest-host</UserSecretsId>
+    <!-- The SDK only brings in the Blazor framework scripts (blazor.web.js, from the
+         Microsoft.AspNetCore.App.Internal.Assets pack) for a web app that has .razor files of
+         its own. This app's components all come from Crest and module packages, so it says so
+         explicitly - without it the pack is never downloaded and blazor.web.js 404s.
+         Crest.Server's BlazorFrameworkScriptEndpoints serves them under tenant prefixes. -->
+    <RequiresAspNetWebAssets>true</RequiresAspNetWebAssets>
+  </PropertyGroup>
+
+  <Target Name="EnsureWwwRootExists" BeforeTargets="Build;Publish">
+    <MakeDir Directories="$(MSBuildProjectDirectory)\wwwroot" />
+  </Target>
+
+  <ItemGroup>
+    <Compile Remove="modules\**" />
+    <Content Remove="modules\**" />
+    <EmbeddedResource Remove="modules\**" />
+    <None Remove="modules\**" />
+    <!-- The WASM entry project, built on its own and referenced below. -->
+    <Compile Remove="client\**" />
+    <Content Remove="client\**" />
+    <EmbeddedResource Remove="client\**" />
+    <None Remove="client\**" />
+    <!-- Local dev config and tooling: loaded from source by Program.cs in Development, never published. -->
+    <Content Remove="dev\**" />
+    <None Remove="dev\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Recipes\**\*.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" />
+    <PackageReference Include="Crest.Application.Cms.Targets" />
+    <PackageReference Include="Crest.Logging.Serilog" />
+    <PackageReference Include="SQLitePCLRaw.lib.e_sqlite3" />
+  </ItemGroup>
+
+  <ItemGroup Label="Crest (packages from modules/Crest/output/crest)">
+    <PackageReference Include="Crest.Server" />
+    <PackageReference Include="Crest.ContentPartLists" />
+    <PackageReference Include="Crest.Parties" />
+    <PackageReference Include="Crest.Parties.Domain" />
+    <PackageReference Include="Crest.Members" />
+    <PackageReference Include="Crest.Members.Domain" />
+    <PackageReference Include="Crest.Workflows" />
+    <PackageReference Include="Crest.Workflows.Contents" />
+    <PackageReference Include="Crest.Money" />
+    <PackageReference Include="Crest.Money.Domain" />
+    <PackageReference Include="Crest.Global" />
+    <PackageReference Include="Crest.Regions" />
+    <PackageReference Include="Crest.Regions.Domain" />
+    <PackageReference Include="Crest.LegacyFrame" />
+    <PackageReference Include="Crest.Components" />
+    <PackageReference Include="Crest.Icons" />
+    <PackageReference Include="Crest.AdminTheme" />
+    <PackageReference Include="Crest.SiteTheme" />
+    <PackageReference Include="Crest.MemberTheme" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="client/Crest.Host.Client.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <!-- The host's WASM entry project: the one browser payload (one Program.Main) of the Blazor Web
+       App. A Crest host owns this project - Crest never references a host's modules. It
+       references the theme client libraries and every module client library (*.BlazorWasm)
+       the host ships, all as packages, and Crest.LazyModules works out at build time which of
+       them load on demand. Crest.Host references this project, so its output and static web
+       assets reach the app. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <!-- DisplayManager sets CultureInfo.CurrentCulture from the resolved tenant/user/browser
+         culture so date/number formatting reflects it. The SDK's default trimmed ICU data only
+         ships full formatting data for a small set of cultures; without this, a resolved
+         culture outside that set falls back to the invariant format. -->
+    <BlazorWebAssemblyLoadAllGlobalizationData>true</BlazorWebAssemblyLoadAllGlobalizationData>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" PrivateAssets="all" />
+    <PackageReference Include="Crest.LazyModules" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup Label="Crest theme clients (admin, site, member shells)">
+    <PackageReference Include="Crest.AdminTheme.Client" />
+    <PackageReference Include="Crest.SiteTheme.Client" />
+    <PackageReference Include="Crest.MemberTheme.Client" />
+  </ItemGroup>
+
+  <ItemGroup Label="Module client libraries">
+    <PackageReference Include="Crest.Members.Member.BlazorWasm" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,5 @@
+* text=auto
+
+# Devpod/devcontainer entrypoints and shell scripts run under Linux and must stay LF-only.
+.devcontainer/** text eol=lf
+*.sh text eol=lf

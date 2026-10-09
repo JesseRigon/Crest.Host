@@ -1,9 +1,9 @@
 {
   "name": "CrestDev",
-  "displayName": "Orchard Crest UI Framework Dev",
-  "description": "Minimal SQLite development setup for Orchard Crest UI Framework.",
-  "author": "Orchard Crest UI Framework",
-  "website": "https://github.com/jesse-forked/Crest",
+  "displayName": "Crest Dev",
+  "description": "Minimal SQLite development setup for a Crest host.",
+  "author": "Crest",
+  "website": "https://github.com/JesseRigon/Crest.Host",
   "version": "1.0.0",
   "issetuprecipe": true,
   "categories": [
@@ -15,41 +15,38 @@
     "sqlite"
   ],
   "variables": {
-    "blazorCounterContentItemId": "4c1b6c1f8f5b4a2f9c2d7e8a1b3f5c6d",
-    "legacyFrameWorkflowTypeId": "4crestlegacyframeworkflowtype001"
+    "blazorCounterContentItemId": "4c1b6c1f8f5b4a2f9c2d7e8a1b3f5c6d"
   },
   "steps": [
     {
       "name": "feature",
       "enable": [
-        "OrchardCore.Admin",
-        "OrchardCore.AdminMenu",
-        "OrchardCore.ContentTypes",
-        "OrchardCore.Contents",
-        "OrchardCore.Deployment",
-        "OrchardCore.Diagnostics",
-        "OrchardCore.Features",
-        "OrchardCore.Layers",
-        "OrchardCore.Liquid",
-        "OrchardCore.Media",
-        "OrchardCore.Navigation",
-        "OrchardCore.Recipes",
-        "OrchardCore.Roles",
-        "OrchardCore.Settings",
-        "OrchardCore.Shortcodes",
-        "OrchardCore.Templates",
-        "OrchardCore.Themes",
-        "OrchardCore.Users",
-        "OrchardCore.Widgets",
-        "Crest",
         "Crest.Admin",
-        "Crest.Site",
-        "Crest.Member",
+        "Crest.AdminMenu",
+        "Crest.ContentTypes",
+        "Crest.Contents",
+        "Crest.Deployment",
+        "Crest.Diagnostics",
+        "Crest.Features",
+        "Crest.Layers",
+        "Crest.Liquid",
+        "Crest.Media",
+        "Crest.Navigation",
+        "Crest.Recipes",
+        "Crest.Roles",
+        "Crest.Settings",
+        "Crest.Shortcodes",
+        "Crest.Templates",
+        "Crest.Themes",
+        "Crest.Users",
+        "Crest.Widgets",
+        "Crest",
+        "Crest.AdminTheme",
+        "Crest.SiteTheme",
         "Crest.ContentPartLists",
         "TheAdmin",
         "SafeMode",
-        "OrchardCore.Localization",
-        "OrchardCore.Workflows",
+        "Crest.Localization",
         "Crest.LegacyFrame",
         "Crest.Icons",
         "Crest.Global",
@@ -58,18 +55,32 @@
         "Crest.Parties",
         "Crest.Members",
         "Crest.Workflows",
-        "Crest.Workflows.Contents"
+        "Crest.Workflows.Contents",
+        "Crest.Autoroute",
+        "Crest.Email",
+        "Crest.Email.Smtp",
+        "Crest.DynamicCache",
+        "Crest.Flows",
+        "Crest.HomeRoute",
+        "Crest.Html",
+        "Crest.Recipes.Core",
+        "Crest.Resources",
+        "Crest.Roles.Core",
+        "Crest.Security",
+        "Crest.Tenants",
+        "Crest.Title",
+        "Crest.MemberTheme"
       ]
     },
     {
       "name": "themes",
-      "admin": "Crest.Admin",
-      "site": "Crest.Site"
+      "admin": "Crest.AdminTheme",
+      "site": "Crest.SiteTheme"
     },
     {
       "name": "settings",
-      "SiteName": "Orchard Crest UI Framework Dev",
-      "CurrentAdminThemeName": "Crest.Admin",
+      "SiteName": "Crest Dev",
+      "CurrentAdminThemeName": "Crest.AdminTheme",
       "LocalizationSettings": {
         "DefaultCulture": "en-US",
         "SupportedCultures": [
@@ -77,23 +88,13 @@
           "es-ES"
         ],
         "FallBackToParentCulture": true
+      },
+      "AdminSettings": {
+        "DisplayThemeToggler": true,
+        "DisplayMenuFilter": true,
+        "DisplayNewMenu": true,
+        "DisplayTitlesInTopbar": false
       }
-    },
-    {
-      "name": "WorkflowType",
-      "Data": [
-        {
-          "WorkflowTypeId": "[js: variables('legacyFrameWorkflowTypeId')]",
-          "Name": "Legacy frame smoke workflow",
-          "IsEnabled": true,
-          "IsSingleton": false,
-          "LockTimeout": 0,
-          "LockExpiration": 0,
-          "DeleteFinishedWorkflows": false,
-          "Activities": [],
-          "Transitions": []
-        }
-      ]
     },
     {
       "name": "content",
@@ -133,8 +134,42 @@
             "EditOwnContent",
             "ViewContent"
           ]
+        },
+        {
+          "Name": "Moderator",
+          "Description": "Grants users the ability to moderate content.",
+          "Permissions": []
+        },
+        {
+          "Name": "Contributor",
+          "Description": "Grants users the ability to contribute content.",
+          "Permissions": []
+        },
+        {
+          "Name": "WorkflowEditor",
+          "Description": "Authors the tenant's own workflows: view, edit, publish and run; not the shipped templates or connections (plans/workflows.md, phase 5).",
+          "Permissions": [
+            "AccessAdminPanel",
+            "ViewCrestWorkflows",
+            "EditCrestWorkflows",
+            "PublishCrestWorkflows",
+            "RunCrestWorkflows"
+          ]
+        },
+        {
+          "Name": "WorkflowViewer",
+          "Description": "Reads workflows, instances and journals; changes nothing.",
+          "Permissions": [
+            "AccessAdminPanel",
+            "ViewCrestWorkflows"
+          ]
         }
       ]
+    },
+    {
+      "name": "CrestAdminMenuLayout",
+      "file": "crest-admin-menu-layout.json",
+      "optional": true
     }
   ]
 }
